@@ -11,7 +11,6 @@ phases:
   build:
     commands:
       - echo 'Build Error Simulation'
-      - exit 1
       - ng build -c production
     finally:
       - echo 'Finally succcess build stage 546'
